@@ -1,2 +1,3 @@
-# unp-dev-web
-Repositório da Disciplina - Desenvolvimento de Sistemas Web
+# Desenvolvimento de Software para Web - Engenharia da Computação | 9º Período
+Profº Hideljundes Macedo
+## Repositório da Disciplina
