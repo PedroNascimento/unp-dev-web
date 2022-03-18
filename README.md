@@ -1,4 +1,4 @@
-# Desenvolvimento de Software para Web - Engenharia da Computação | 9º Período
+# Desenvolvimento de Software para Web
 Profº Hideljundes Macedo
 ## Repositório da Disciplina
 
