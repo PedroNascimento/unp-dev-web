@@ -1,0 +1,49 @@
+:root {
+  --purple-bg: #290742;
+  --dark-bg: #170027;
+  --button-bg: #9e6dc2;
+  --white: #fff;
+  --light-purple: #fbf6ff;
+  --green: #4fff4b;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  box-sizing: border-box;
+  background-color: var(--button-bg);
+}
+
+.container {
+  display: grid;
+  background-color: var(--purple-bg);
+  margin-top: 200px;
+  margin-bottom: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 80px;
+  border-radius: 15px;
+  color: var(--light-purple);
+}
+
+input {
+  padding: 5px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  margin: 5px;
+}
+
+.submit {
+  background-color: var(--green);
+  border: none;
+  padding: 15px;
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 10px;
+  color: var(--dark-bg);
+  font-weight: 600;
+  font-size: 1.2rem;
+}

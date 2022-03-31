@@ -1,0 +1,37 @@
+@import url(styles.css);
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--button-bg);
+}
+
+.login {
+  background-color: var(--purple-bg);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 80px;
+  border-radius: 15px;
+  color: var(--light-purple);
+}
+
+input {
+  padding: 15px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+button {
+  background-color: var(--green);
+  border: none;
+  padding: 15px;
+  width: 100%;
+  border-radius: 10px;
+  color: var(--dark-bg);
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+button:hover {
+  background-color: var(--button-bg);
+  cursor: pointer;
+}
