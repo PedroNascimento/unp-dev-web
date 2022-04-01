@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles.css">
+  <title>Aula Javascript</title>
+  <script src="./index.js"></script>
+
+</head>
+<body>
+  <div class="container">
+    <h2 id="h2texto">Meu Javascript</h2>
+
+    <div class="button">
+      <button 
+      name="btnalert" 
+      onclick="window.alert('Boa noite')">
+        Boa noite
+      </button>
+
+      <button 
+        name="btnmudar" 
+        onclick="document.getElementById('h2texto').innerHTML='Mudei o texto do H2';">
+          Mudar H2
+      </button>
+
+      <button name="btnMudarNovamente"
+        onclick="mudarTexto();">
+          Mudar Texto novamente
+      </button>
+
+      <button
+        name="btnaumentar"
+        onclick="aumentarFonte();">
+          Aumentar Fonte
+      </button>
+
+      <button
+        name="btdiminuir"
+        onclick="diminuirFonte();">
+          Diminuir Fonte
+      </button>
+
+      <button
+        name="imprimir"
+        onclick="imprimir();">
+          Imprimir
+      </button>
+      
+      <fieldset>
+        <legend>Calculadora</legend>
+          <label for="valor1">Valor 01</label><br>
+            <input 
+              type="number" 
+              id="valor1"
+              name="valor1"
+              value=""><br>
+          
+          <label for="valor2">Valor 02</label><br>
+            <input 
+              type="number" 
+              id="valor2"
+              name="valor2"
+              value=""><br>
+        
+          <label for="opcao">Escolha a operação</label>
+        
+            <select name="opcao" id="opcao">
+              <option value="+" selected>Adição</option>
+              <option value="-">Subtração</option>
+              <option value="*">Multiplicação</option>
+              <option value="/">Divisão</option>
+            </select>
+
+            <button
+              name="btncalcular"
+              onclick="calcular()">
+                Calcular
+            </button><br>
+
+            <input 
+              type="text" 
+              id="resultado"
+              name="resultado"
+              value="0"
+              readonly><br>
+
+      </fieldset>
+    </div>    
+  </div>  
+</body>
+</html>
