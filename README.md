@@ -5,6 +5,7 @@ Profº Hideljundes Macedo
 ### Tecnologias que serão estudadas e Ferramentas necessárias para as aulas
 * HTML
 * CSS
+* Javascript
 * PHP
 * Vscode
 * USBWebServer
